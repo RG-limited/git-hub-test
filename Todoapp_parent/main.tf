@@ -6,7 +6,7 @@ module "resource_group" {
 
 module "resource_group" {
   source                  = "../modules/azurerm_resource_group"
-  resource_group_name     = "zee_rg1"
+  resource_group_name     = "ut_rg"
   resource_group_location = "centralindia"
 }
 
