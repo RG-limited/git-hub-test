@@ -1,7 +1,13 @@
 module "resource_group" {
   source                  = "../modules/azurerm_resource_group"
-  resource_group_name     = "zee_rg"
-  resource_group_location = "centralindia"
+  resource_group_name     = "Zee_rg"
+  resource_group_location = "central india"
+}
+
+module "resource_group" {
+  source                  = "../modules/azurerm_resource_group"
+  resource_group_name     = "MZ_rg"
+  resource_group_location = "west europe"
 }
 
 
